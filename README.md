@@ -1,6 +1,6 @@
 # Traffic signs detection and classification in real time
 
-## This project is a traffic signs detection and classification system on videos using OpenCV.
+## This project is a traffic signs :no_mobile_phones: detection and classification system on videos using OpenCV. :round_pushpin:
 
 This project uses the technology *Convolution Neural Network(CNN)*. Because of its high recognition rate and fast execution, CNN is highly preferred in areas where it is required to recognize and classify real world objects.<br>
 
@@ -24,8 +24,8 @@ Powershell / command prompt,
 ```ps
 pip3 install opencv-contrib-python==3.4.11.43
 ```
-> *Make sure your pip version in in association with python3 and not python2.*
-> *Make sure you install OpenCV v3.x and not OpenCV v4.x to avoid unsupported formats and errors.*
+> :warning: *Make sure your pip version in in association with python3 and not python2.*<br> 
+> :warning: *Make sure you install OpenCV v3.x and not OpenCV v4.x to avoid unsupported formats and errors.*
 
 2. Install matplotlib,
 
@@ -50,10 +50,9 @@ pip3 install imutils
 ```ps
 python main.py
 ```
-*Voila !*
+*Voila! :clap: You can now check out the output.txt and the output video generated.*
 
-## Directory structure
-
+## Directory structure :open_file_folder:
 - `main.py` : *The main program to execute which produces output.*
 - `classification.py` : *SVM Model to classify traffic signs.*
 - `common.py` : *Functions for defining SVM Model.*
@@ -65,7 +64,7 @@ python main.py
 
 This project is divided in two phases, namely **detection phase** and **classification phase**. 
 
-### Detection phase
+### :one: Detection phase
 
 The detection phase uses Image Processing techniques that creates contours on each video frame and finds all ellipses or circles among those contours. They are marked as candidates for traffic signs.
 
@@ -76,11 +75,11 @@ The detection phase uses Image Processing techniques that creates contours on ea
 - Make contours by Binarization.
 - Detect ellipse-like and circle-like contours
 
-### Classification phase
+### :two: Classification phase
 
 In the classification phase, a list of images will be created by cropping from the original frame based on candidates' coordinate. A pre-trained SVM model classifies these images to find out which type of traffic sign they are.
 
-### System architecture: How does this work?
+### System architecture: How does this work? :wrench:
 
 For better understanding, flow of the project is as follows:
 
