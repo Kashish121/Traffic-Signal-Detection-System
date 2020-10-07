@@ -3,6 +3,66 @@
 ## This project is a traffic signs detection and classification system on videos using OpenCV.
 
 This project uses the technology *Convolution Neural Network(CNN)*. Because of its high recognition rate and fast execution, CNN is highly preferred in areas where it is required to recognize and classify real world objects.<br>
+
+## Pre-requisites :rotating_light:
+
+- **Python** `>= v3.4.0`
+    - Install Python from [here](https://www.python.org/).
+- **OpenCV** `= v3.4.x`
+    - Install OpenCV from [here](https://opencv.org/releases/).
+- **Pip** `>= v19.0.1`
+    - Install pip from [here](https://pip.pypa.io/en/stable/installing/).
+- **Imutils, matplotlib, skimage**
+    - Install module using pip.
+
+## How to run? :rocket:
+
+- **Open terminal** inside project folder location.
+Powershell / command prompt,
+1. Install OpenCV,
+
+```ps
+pip3 install opencv-contrib-python==3.4.11.43
+```
+> *Make sure your pip version in in association with python3 and not python2.*
+> *Make sure you install OpenCV v3.x and not OpenCV v4.x to avoid unsupported formats and errors.*
+
+2. Install matplotlib,
+
+```ps
+pip3 install matplotlib
+```
+
+3. Install skimage,
+
+```ps
+pip3 install -U scikit-image
+```
+
+4. Install imutils,
+
+```ps
+pip3 install imutils
+```
+
+5. Run `main.py`
+
+```ps
+python main.py
+```
+*Voila !*
+
+## Directory structure
+
+- `main.py` : *The main program to execute which produces output.*
+- `classification.py` : *SVM Model to classify traffic signs.*
+- `common.py` : *Functions for defining SVM Model.*
+- `data_svm.dat` : *Saved SVM model after training.*
+- `dataset` : *contains images for training SVM models.*
+- `dataset/1-12` : *contains cropped images of traffic signs, each folder containing different class of traffic sign.*
+- `dataset/0` : *contains non-traffic-sign cropped images which can be recognized as traffic signs in the detection phase* 
+- `images` : *contains original samples of images of environment(grass, path, road, ..etc) and the supported traffic signs in detection phase.*
+
 This project is divided in two phases, namely **detection phase** and **classification phase**. 
 
 ### Detection phase
@@ -34,6 +94,9 @@ For better understanding, flow of the project is as follows:
 8. Train the model
 9. Model evaluation of the test data set
 10. Generating the classification result
+
+If a traffic sign is detected, it will be tracked until it disappears or there is another bigger sign in the frame. The tracking method is Dense Optical Flow.
+> The `main.py` trains the dataset every time it executes. But, the `data_smv.dat` already contains a trained dataset if we want to skip the traning of SMV model every time we execute the detection system.
 
 <!-- Using CNN, python based.
 Tools and technologies used:
