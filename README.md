@@ -1,6 +1,6 @@
 # Traffic signs detection and classification in real time
 
-## This project is a traffic signs :no_mobile_phones: detection and classification system on videos using OpenCV. :round_pushpin:
+## This project is a traffic sign :no_mobile_phones: detection and classification system using OpenCV:round_pushpin:
 
 This project uses the technology *Convolution Neural Network(CNN)*. Because of its high recognition rate and fast execution, CNN is highly preferred in areas where it is required to recognize and classify real world objects.<br>
 
