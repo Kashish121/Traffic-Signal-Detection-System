@@ -10,7 +10,7 @@ This project uses the technology *Convolution Neural Network(CNN)*. Because of i
     - Install Python from [here](https://www.python.org/).
 - **OpenCV** `= v3.4.x`
     - Install OpenCV from [here](https://opencv.org/releases/).
-- **Pip** `>= v19.0.1`
+- **pip** `>= v19.0.1`
     - Install pip from [here](https://pip.pypa.io/en/stable/installing/).
 - **Imutils, matplotlib, skimage**
     - Install module using pip.
