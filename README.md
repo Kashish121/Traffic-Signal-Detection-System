@@ -1,4 +1,4 @@
-# Traffic signs detection and classification in real time
+# [Traffic signs detection and classification in real time](https://kashish121.github.io/Traffic-Signal-Detection-System/)
 
 ## This project is a traffic sign :no_mobile_phones: detection and classification system using OpenCV:round_pushpin:
 
