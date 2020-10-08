@@ -1,3 +1,4 @@
 title: Traffic Signal Detection System
 show_downloads: true
 theme: jekyll-theme-leap-day
+gem "github-pages", group: :jekyll_plugins
