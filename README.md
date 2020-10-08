@@ -79,7 +79,7 @@ The detection phase uses Image Processing techniques that creates contours on ea
 
 In the classification phase, a list of images will be created by cropping from the original frame based on candidates' coordinate. A pre-trained SVM model classifies these images to find out which type of traffic sign they are.
 
-### System architecture: How does this work? :wrench:
+## System architecture: How does this work? :wrench:
 
 For better understanding, flow of the project is as follows:
 
@@ -96,6 +96,20 @@ For better understanding, flow of the project is as follows:
 
 If a traffic sign is detected, it will be tracked until it disappears or there is another bigger sign in the frame. The tracking method is Dense Optical Flow.
 > The `main.py` trains the dataset every time it executes. But, the `data_smv.dat` already contains a trained dataset if we want to skip the traning of SMV model every time we execute the detection system.
+
+## Thanks for visiting! :cherry_blossom: 
+
+[![](https://sourcerer.io/fame/Kashish121/Kashish121/Traffic-Signal-Detection-System/images/0)](https://sourcerer.io/fame/Kashish121/Kashish121/Traffic-Signal-Detection-System/links/0)
+[![](https://sourcerer.io/fame/Kashish121/Kashish121/Traffic-Signal-Detection-System/images/1)](https://sourcerer.io/fame/Kashish121/Kashish121/Traffic-Signal-Detection-System/links/1)
+[![](https://sourcerer.io/fame/Kashish121/Kashish121/Traffic-Signal-Detection-System/images/2)](https://sourcerer.io/fame/Kashish121/Kashish121/Traffic-Signal-Detection-System/links/2)
+[![](https://sourcerer.io/fame/Kashish121/Kashish121/Traffic-Signal-Detection-System/images/3)](https://sourcerer.io/fame/Kashish121/Kashish121/Traffic-Signal-Detection-System/links/3)
+[![](https://sourcerer.io/fame/Kashish121/Kashish121/Traffic-Signal-Detection-System/images/4)](https://sourcerer.io/fame/Kashish121/Kashish121/Traffic-Signal-Detection-System/links/4)
+[![](https://sourcerer.io/fame/Kashish121/Kashish121/Traffic-Signal-Detection-System/images/5)](https://sourcerer.io/fame/Kashish121/Kashish121/Traffic-Signal-Detection-System/links/5)
+[![](https://sourcerer.io/fame/Kashish121/Kashish121/Traffic-Signal-Detection-System/images/6)](https://sourcerer.io/fame/Kashish121/Kashish121/Traffic-Signal-Detection-System/links/6)
+[![](https://sourcerer.io/fame/Kashish121/Kashish121/Traffic-Signal-Detection-System/images/7)](https://sourcerer.io/fame/Kashish121/Kashish121/Traffic-Signal-Detection-System/links/7)
+
+Feel free to contact me on socials! 
+[@Kashish121](https://github.com/Kashish121)
 
 <!-- Using CNN, python based.
 Tools and technologies used:
