@@ -7,6 +7,7 @@ import imutils
 import argparse
 import os
 import math
+from neuralNet import *
 
 from classification import training, getLabel
 
